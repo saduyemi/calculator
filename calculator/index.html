@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>General Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="calculatorArea">
+        <input type="text" id="output" value="" readonly>
+        <br> 
+
+        <div class="container">
+            <button onclick="clearValue()">AC</button>
+            <button onclick="popValue()">DE</button>
+            <button onclick="insertThis('.')">.</button>
+            <button onclick="insertThis('/')">/</button>
+            <button onclick="insertThis(7)">7</button>
+            <button onclick="insertThis(8)">8</button>
+            <button onclick="insertThis(9)">9</button>
+            <button onclick="insertThis('*')">*</button>
+            <button onclick="insertThis(6)">6</button>
+            <button onclick="insertThis(5)">5</button>
+            <button onclick="insertThis(4)">4</button>
+            <button onclick="insertThis('+')">+</button>
+            <button onclick="insertThis(3)">3</button>
+            <button onclick="insertThis(2)">2</button>
+            <button onclick="insertThis(1)">1</button>
+            <button onclick="insertThis('-')">-</button>
+            <button onclick="insertThis(0)" style="width: 20%;">0</button>
+            <button style="width: 55%; margin-left: 10%;" onclick="findValue()">=</button>
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
